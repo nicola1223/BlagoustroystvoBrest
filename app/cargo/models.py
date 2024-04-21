@@ -1,7 +1,7 @@
 from django.db import models
 
 
-class Trucks(models.Model):
+class Truck(models.Model):
     name = models.CharField(max_length=30)
     price = models.FloatField()
 
